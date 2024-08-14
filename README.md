@@ -6,7 +6,7 @@ Equation
 Install
 ---------------
 ```shell
-$ composer install Lang\Equation
+$ composer install lang\equation
 ```
 
 Simple examples
