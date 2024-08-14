@@ -1,0 +1,17 @@
+{
+    "name": "lang/equation",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Lang\\Equation\\": "src/",
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+  "require": {
+    "ext-bcmath": "*"
+  }
+}
