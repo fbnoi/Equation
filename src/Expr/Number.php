@@ -7,6 +7,8 @@ use Lang\Equation\Token;
 
 class Number implements Expr
 {
+    use ExprTrait;
+    
     private float $value;
 
     /**

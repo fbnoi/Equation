@@ -8,6 +8,8 @@ use Lang\Equation\Token;
 
 class Param implements Expr
 {
+    use ExprTrait;
+    
     private ?string $name;
 
     private function __construct(string $name)
